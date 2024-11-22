@@ -1,0 +1,22 @@
+{
+  "name": "devrev-snaps-typescript-template",
+  "version": "1.0.0",
+  "description": "This repository contains a template for the functions that can be deployed as part of Snap-Ins.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^7.7.0",
+    "dotenv": "^16.4.5",
+    "sentiment": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^22.9.1",
+    "typescript": "^5.6.3"
+  }
+}
